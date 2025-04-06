@@ -1,0 +1,48 @@
+
+h3 {
+    vertical-align: center;
+    color: #eeeeee;
+}
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    max-width: 800px;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+} 
+
+button {
+    border: 1px solid #9AABD8;
+    margin: 2px;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: monospace;
+    }
+
+.score {
+  font-size: 60px;
+  color: #F94F6D;
+  font-family: monospace;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+#restart {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    bo
+}   
