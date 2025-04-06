@@ -1,50 +1,41 @@
 let homeZahlEl = document.getElementById("score-home");
 let guestZahlEl = document.getElementById("score-guest");
-homeZahl = 0;
-guestZahl = 0;
+let homeZahl = 0;
+let guestZahl = 0;
 
-
-function addOne() {
-    homeZahl += 1; 
+window.addOne = function () {
+    homeZahl += 1;
     homeZahlEl.innerText = homeZahl;
-    console.log(homeZahl);
-}
+};
 
-function addTwo() {
-    homeZahl += 2; 
+window.addTwo = function () {
+    homeZahl += 2;
     homeZahlEl.innerText = homeZahl;
-    console.log(homeZahl);
-}
+};
 
-function addThree() {
-    homeZahl += 3; 
+window.addThree = function () {
+    homeZahl += 3;
     homeZahlEl.innerText = homeZahl;
-    console.log(homeZahl);
-}
+};
 
-function minOne() {
-    guestZahl += 1; 
+window.minOne = function () {
+    guestZahl += 1;
     guestZahlEl.innerText = guestZahl;
-    console.log(guestZahl);
-}
+};
 
-function minTwo() {
-    guestZahl += 2; 
+window.minTwo = function () {
+    guestZahl += 2;
     guestZahlEl.innerText = guestZahl;
-    console.log(guestZahl);
-}
+};
 
-function minThree() {
-    guestZahl += 3; 
+window.minThree = function () {
+    guestZahl += 3;
     guestZahlEl.innerText = guestZahl;
-    console.log(guestZahl);
-}
+};
 
-function restartOn() {
-    guestZahl = 0;
+window.restartOn = function () {
     homeZahl = 0;
-    guestZahlEl.innerText = guestZahl;
+    guestZahl = 0;
     homeZahlEl.innerText = homeZahl;
-
-
-}
+    guestZahlEl.innerText = guestZahl;
+};
